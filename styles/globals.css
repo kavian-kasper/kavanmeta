@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply max-w-7xl mx-auto box-border;
+  }
+  a,
+  button {
+    @apply transition duration-300;
+  }
+
+  .accent-bg {
+    background-color: #00ff66;
+  }
+  .accent {
+    color: #00ff66;
+  }
+  .absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .top-left {
+    top: 28px;
+    left: 26px;
+  }
+  .bottom-left {
+    bottom: 68px;
+    left: 16px;
+  }
+  .underline-color {
+    text-decoration: underline;
+    text-decoration-color: #00ff66;
+  }
+  .h-400 {
+    max-height: 450px;
+    min-height: 350px;
+  }
+  .border-primary {
+    border-color: #00ff66;
+  }
+  .minus-margin-sm {
+    margin-top: -3px;
+  }
+}
+
+.btn-secondary-sm {
+  @apply text-sm font-extrabold italic rounded-full
+          border-solid border-4 border-black bg-black accent px-6 py-1.5
+          hover:accent-bg hover:text-black;
+}
+.btn-primary-sm {
+  @apply text-sm font-extrabold text-gray-100 italic rounded-full  bg-indigo-500 px-6 py-1.5
+          hover:bg-indigo-700;
+}
+.btn-primary-lg {
+  @apply text-xl font-extrabold italic rounded-full
+           accent-bg text-gray-900 px-16 py-4 max-w-xs
+          hover:bg-gray-900 hover:accent;
+}
+.thumbnail-grid-2 {
+  @apply grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-3;
+}
+
+.thumbnail-2 {
+  @apply col-span-1 flex flex-col bg-white rounded-lg shadow;
+}
+
+.detail-viewer {
+  @apply mx-auto rounded shadow cursor-pointer;
+}
