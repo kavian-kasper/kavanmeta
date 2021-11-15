@@ -16,7 +16,7 @@ const TheExplorer = () => {
     const viewprimarySkin = () => {
         return (
         <div className="mb-4">
-            <video autoPlay loop controls src={primarySkin.video} className="detail-viewer h-400">
+            <video playsInline autoPlay loop controls src={primarySkin.video} className="detail-viewer h-400">
                 </video>
         </div>
         )
@@ -24,7 +24,7 @@ const TheExplorer = () => {
     const viewsecondarySkin = () => {
         return (
         <div className="mb-4">
-            <video autoPlay loop controls src={secondarySkin.video} className="detail-viewer h-400">
+            <video playsInline autoPlay loop controls src={secondarySkin.video} className="detail-viewer h-400">
         </video>
         </div>
         )

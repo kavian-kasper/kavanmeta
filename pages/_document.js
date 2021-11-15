@@ -10,7 +10,7 @@ class MyDocument extends Document {
 
                     <meta property="og:title" content="Metatoons - NFTs by KavanMeta" />
                     <meta property="og:url" content="https://kavanmeta.io" />
-                    <meta property="og:image" content="https://kavanmeta.io/social.jpg" />
+                    <meta property="og:image" content="https://kavanmeta.vercel.app/social.jpg" />
                     <meta property="og:type" content="website" />
                     <meta property="og:description" content="Bespoke 3D Avatars primed for a future metaverse."/>
 

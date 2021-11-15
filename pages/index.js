@@ -8,14 +8,6 @@ export default function Home() {
 
   const metatoonz = [theAcademic, theCommander, theHeroic, theEasyRider, theExplorer, theMachiavellian]
 
-
-  useEffect(() => {
-    const windowWidth = window.screen.availWidth
-    if (windowWidth < 767) {
-
-    }
-  }, [] );
-
   useEffect(() => {
     try {
       fetch ('/api/indexVisit')

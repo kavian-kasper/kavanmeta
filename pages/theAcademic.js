@@ -18,7 +18,7 @@ const TheAcademic = () => {
     const viewprimarySkin = () => {
         return (
         <div className="mb-4">
-            <video autoPlay loop controls src={primarySkin.video} className="detail-viewer h-400">
+            <video playsInline autoPlay loop controls src={primarySkin.video} className="detail-viewer h-400">
                 </video>
         </div>
         )
@@ -26,7 +26,7 @@ const TheAcademic = () => {
     const viewsecondarySkin = () => {
         return (
         <div className="mb-4">
-            <video autoPlay loop controls src={secondarySkin.video} className="detail-viewer h-400">
+            <video playsInline autoPlay loop controls src={secondarySkin.video} className="detail-viewer h-400">
                 </video>
         </div>
         )
@@ -34,7 +34,7 @@ const TheAcademic = () => {
     const viewtertiarySkin = () => {
         return (
         <div className="mb-4">
-            <video autoPlay loop controls src={tertiarySkin.video} className="detail-viewer h-400">
+            <video playsInline autoPlay loop controls src={tertiarySkin.video} className="detail-viewer h-400">
                 </video>
         </div>
         )
