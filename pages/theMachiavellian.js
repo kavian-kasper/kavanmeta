@@ -13,7 +13,7 @@ const TheMachiavellian = () => {
     const viewprimarySkin = () => {
         return (
         <div className="mb-4">
-            <video autoPlay loop controls src={primarySkin.video} className="detail-viewer h-400">
+            <video autoPlay playsInline loop controls src={primarySkin.video} className="detail-viewer h-400">
                 </video>
         </div>
         )
