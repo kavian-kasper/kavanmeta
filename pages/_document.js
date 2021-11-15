@@ -14,6 +14,12 @@ class MyDocument extends Document {
                     <meta property="og:type" content="website" />
                     <meta property="og:description" content="Bespoke 3D Avatars primed for a future metaverse."/>
 
+                    <meta name="twitter:card" content="summary_large_image"/>
+                    <meta name="twitter:site" content="@kavanmeta"/>
+                    <meta name="twitter:title" content="Metatoons - NFTs by KavanMeta"/>
+                    <meta name="twitter:description" content="Bespoke 3D Avatars primed for a future metaverse."/>
+                    <meta name="twitter:image" content="https://kavanmeta.vercel.app/social.jpg"/>
+
 
                 </Head>
                 <body>
