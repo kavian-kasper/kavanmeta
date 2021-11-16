@@ -105,7 +105,12 @@ export default function Home() {
 
             <dd className="mb-6 ml-4 text-base text-gray-500">
             That depends on the future of NFTs. As someone who draw and code, I feel positioned to keep up with what happens at the forefront of NFT development.
-            Some to-do&apos;s are creating comissioned, bespoke Metatoons, and rigging the Metatoons if they can be used in a future virtual world.
+            Some general to-do&apos;s are:
+            <ol className="py-4">
+              <li className="py-2"><span className="text-indigo-500 mr-2">&#9679;</span><span className="font-bold">For anyone:</span> Take commissions to create bespoke Metatoons. Price TBA.</li>
+              <li className="py-2"><span className="text-indigo-500 mr-2">&#9679;</span><span className="font-bold">For Metatoon holders: </span>
+               Each minted Metatoon has a unique skinEdition metadata. I can create commissioned profile pics (PFP) NFTs based on the unique skinEdition for your Metatoon. Price: the ADA equivalent of $70 USD. Example:</li>
+            </ol>
             </dd>
           </section>
 
