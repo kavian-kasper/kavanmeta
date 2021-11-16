@@ -50,13 +50,12 @@
 }
 
 .btn-secondary-sm {
-  @apply text-sm font-extrabold italic rounded-full
-          border-solid border-4 border-black bg-black accent px-6 py-1.5
-          hover:accent-bg hover:text-black;
+  @apply text-sm font-extrabold italic rounded-full accent px-7 py-2
+           bg-indigo-800 accent;
 }
 .btn-primary-sm {
-  @apply text-sm font-extrabold text-gray-100 italic rounded-full  bg-indigo-500 px-6 py-1.5
-          hover:bg-indigo-700;
+  @apply text-sm font-extrabold italic rounded-full px-7 py-2
+        text-white  bg-indigo-500 hover:bg-indigo-700;
 }
 .btn-primary-lg {
   @apply text-xl font-extrabold italic rounded-full

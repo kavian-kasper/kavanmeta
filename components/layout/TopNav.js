@@ -1,8 +1,10 @@
 import Link from "next/link"
-import { useState } from "react";
 import GitIcon from "./GitIcon"
+import { useRouter } from "next/dist/client/router"
 
 const TopNav = () => {
+
+    const { asPath } = useRouter();
 
     return (
         <nav className="px-4 lg:px-8 accent-bg">
@@ -31,12 +33,13 @@ const TopNav = () => {
 
                         {/* secondary */}
                         <div className="flex items-center">
+                        { asPath === "/mintMetatoon" ?
+                        <a className=" mr-2 btn-secondary-sm">Mint</a>
+                        :
                         <Link href="/mintMetatoon">
-                            <a className=" mr-2 btn-secondary-sm">
-                                Mint
-                                </a>
+                            <a className=" mr-2 btn-primary-sm">Mint</a>
                         </Link>
-                            {/* <Link href="/about"><a className="px-4 text-sm font-nunito">About</a></Link> */}
+                        }
                             <GitIcon/>
                         </div>
 

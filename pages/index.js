@@ -3,6 +3,7 @@ import ThumbnailList from '../components/UIcomponents/ThumbnailList';
 import HeadInfo from '../components/Head';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
 
@@ -39,8 +40,8 @@ export default function Home() {
             </h1>
 
         <picture>
-        <source media="(min-width:768px)" srcSet="./metatoons-banner.jpg"/>
-        <img src="./metatoons-banner-mobile.jpg"
+        <source media="(min-width:768px)" srcSet="/metatoons-banner.jpg"/>
+        <img src="/metatoons-banner-mobile.jpg"
           alt="All the Metatoons standing in a horizontal line"
           className="banner bg-contain bg-no-repeat"/>
         </picture>
@@ -94,7 +95,7 @@ export default function Home() {
             </dd>
 
             <div className="mb-6 max-w-sm md:max-w-md lg:max-w-lg mr-4">
-            <img src="./charles-comparison.jpg" alt="3 comparison of charles face i different styles" className="ml-4 h-40 object-contain"/>
+            <Image height="341" width="1000" layout="responsive"  src="/charles-comparison.jpg" alt="3 comparison of charles face i different styles" className="ml-4 h-40 object-contain"/>
             </div>
 
             <dt>

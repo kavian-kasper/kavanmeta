@@ -3,6 +3,7 @@ import DetailDescription from "../components/detailComps/DetailDescription"
 import Breadcrumbs from "../components/UIcomponents/Breadcrumbs"
 import HeadInfo from "../components/Head"
 import { useState } from "react"
+import Image from "next/image"
 
 const TheCommander = () => {
 
@@ -87,7 +88,7 @@ const TheCommander = () => {
         const metatoonSkin = props.metatoonSkin
         return (
         <button className="w-1/4  p-2"  onClick ={ () => { changeViewMode(viewSkin); changemetatoonSkin(metatoonSkin)} }>
-            <img src={videoThumbnail} alt="a clickable thumbnail" className="rounded shadow cursor-pointer" />
+            <Image height="135" width="100" src={videoThumbnail} alt="a clickable thumbnail" className="rounded shadow cursor-pointer" />
         </button>
         )
     }
@@ -99,7 +100,7 @@ const TheCommander = () => {
             <button className="w-1/4 p-2"  onClick ={ () => { changeViewMode(viewSkin); changemetatoonSkin(metatoonSkin)} }>
                 <div className="relative">
                     <h3 className="z-40 absolute-center text-3xl font-nunito text-black">3D</h3>
-                    <img src={buttonThumbnail} alt="a clickable thumbnail" className="rounded shadow cursor-pointer opacity-50" />
+                    <Image height="135" width="100"  src={buttonThumbnail} alt="a clickable thumbnail" className="rounded shadow cursor-pointer opacity-50" />
                     </div>
             </button>
         )

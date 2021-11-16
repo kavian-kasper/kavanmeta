@@ -18,7 +18,7 @@ const ClipboardBtn = (props) => {
         <div>
             <p className="break-all flex justify-center mx-auto py-5 px-4 text-lg leading-6 font-medium text-gray-500 max-w-full" type="text" onChange={inputHandler} disabled={true}>
             {mintAddress}</p>
-            <button className="btn-secondary-sm flex mx-auto" onClick={copy} disabled={!mintAddress}>{buttonText}</button>
+            <button className="btn-primary-sm flex mx-auto" onClick={copy} disabled={!mintAddress}>{buttonText}</button>
         </div>
     )
 }
