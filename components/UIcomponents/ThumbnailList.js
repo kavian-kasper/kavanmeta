@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image"
 
 const ThumbnailList = ( props ) => {
     const metatoonz = props.metatoonz;
@@ -12,7 +13,7 @@ const ThumbnailList = ( props ) => {
                     <span className="inline-block relative">
                         <Link href={"/"+`${metatoon[0].slug}`}>
                             <a>
-                                <img className="flex-shrink-0 mx-auto bg-black rounded-t-lg object-cover" src={metatoon[0].image}  alt={metatoon[0].imgAlt}/>
+                                <Image width="1000" height ="1350" layout="responsive" className="flex-shrink-0 mx-auto bg-black rounded-t-lg object-cover" src={metatoon[0].image}  alt={metatoon[0].imgAlt}/>
                             </a>
                         </Link>
                         <span className="absolute bottom-1 right-1 px-2 py-1 text-black font-nunito tracking-wide text-xs font-medium accent-bg rounded-full">
