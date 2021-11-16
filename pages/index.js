@@ -20,22 +20,23 @@ export default function Home() {
     },[] );
 
   const Banner = () => {
-    const [linkMsg, setLinkMsg] = useState("live")
+    // const [linkMsg, setLinkMsg] = useState("live")
 
-    const handleLinkMsg = () => {
-      setLinkMsg("live...")
-    }
+    // const handleLinkMsg = () => {
+    //   setLinkMsg("live...")
+    // }
+
     return (
       <div className="relative">
 
             <h1 className="absolute text-3xl bottom-left md:top-left md:text-4xl
             font-nunito text-black md:text-white md:opacity-80 opacity-80 tracking-wide z-40">
-              Metatoon minting is
+              Metatoon minting goes live
               <span className="block">
-              <Link href="/mintMetatoon">
+              {/* <Link href="/mintMetatoon">
               <a className="uppercase accent hover:text-black" onClick={handleLinkMsg}> {linkMsg} </a>
-              </Link>
-                on Cardano.
+              </Link> */}
+                on Cardano <span className="accent block"> Friday 19th November, 13.00 CET.</span>
               </span>
             </h1>
 

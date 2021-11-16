@@ -27,11 +27,11 @@ const MintMetatoon = ({results}) => {
     return (
         <div>
             <HeadInfo title="Mint Metatoonz"/>
-        {nftCount === 0 ?
-            <div className="min-h-screen text-center text-3xl font-nunito mt-20">The Metatoonz are sold out. Follow
+        {nftCount === 936 || 935 || 934 ?
+            <div className="min-h-screen text-center text-3xl font-nunito mt-20">The Metatoonz are dropping Friday 19th November, 13.00 CET. Follow
                 <Link href="https://twitter.com/KavanMeta">
             <a className="text-indigo-500" target="_blank"> @kavanmeta </a></Link>
-            for news about future drops.</div>
+            for more news.</div>
             :
             <div>
         <main className="flex flex-col justify-evenly mt-14 max-w-4xl mx-auto px-2">
