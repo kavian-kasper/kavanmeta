@@ -4,10 +4,11 @@ import { useState, useEffect} from "react";
 import axios from "axios";
 import MintCount from "../components/minting/MintCount";
 import Link from "next/link";
+import Image from "next/image";
 
 const MintMetatoon = ({results}) => {
 
-    const price = 30
+    const price = 35
     const initialStock = 937
     const reservationTime = 20
 
@@ -32,6 +33,7 @@ const MintMetatoon = ({results}) => {
             <a className="text-indigo-500" target="_blank"> @kavanmeta </a></Link>
             for news about future drops.</div>
             :
+            <div>
         <main className="flex flex-col justify-evenly mt-14 max-w-4xl mx-auto px-2">
 
         <MintCount nftCount={nftCount} initialStock={initialStock}/>
@@ -102,8 +104,15 @@ const MintMetatoon = ({results}) => {
                     <div>
 
                     </div>
+                    </main>
+                    <aside className="flex flex-col mt-14 max-w-4xl mx-auto px-2">
+                        <Link href="/#profilePic"><a className="mx-auto p-4 my-2 font-bold font-nunito hover:bg-indigo-200 text-purple-700 text-xl">Want a PFP of your Metatoon?</a></Link>
 
-        </main>
+                        <div className="max-w-lg mx-auto">
+                        <Image src="/pfp-twitter.jpg" width="500" height="395" alt="an example of Metatoon profile picture on Twitter"/>
+                        </div>
+                    </aside>
+                    </div>
      }
         </div>
     )

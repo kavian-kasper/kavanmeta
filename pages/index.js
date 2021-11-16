@@ -106,12 +106,39 @@ export default function Home() {
             <dd className="mb-6 ml-4 text-base text-gray-500">
             That depends on the future of NFTs. As someone who draw and code, I feel positioned to keep up with what happens at the forefront of NFT development.
             Some general to-do&apos;s are:
+
             <ol className="py-4">
+
               <li className="py-2"><span className="text-indigo-500 mr-2">&#9679;</span><span className="font-bold">For anyone:</span> Take commissions to create bespoke Metatoons. Price TBA.</li>
-              <li className="py-2"><span className="text-indigo-500 mr-2">&#9679;</span><span className="font-bold">For Metatoon holders: </span>
-               Each minted Metatoon has a unique skinEdition metadata. I can create commissioned profile pics (PFP) NFTs based on the unique skinEdition for your Metatoon. Price: the ADA equivalent of $70 USD. Example:</li>
+              <li id="profilePic" className="py-2">
+                <span className="text-indigo-500 mr-2">&#9679;</span>
+                <span className="font-bold">For Metatoon holders: </span>
+               Each minted Metatoon has a unique skinEdition metadata. I can create commissioned profile picture (PFP) NFTs based on the unique skinEdition of your Metatoon.
+
+               <p className="font-bold">Price: the ADA equivalent of $60 USD.
+                <Link href="https://twitter.com/KavanMeta">
+                  <a target="_blank" className="font-bold text-indigo-500 hover:text-indigo-700"> Just DM on Twitter to make an order.
+                  </a>
+                </Link>
+                </p>
+              </li>
             </ol>
             </dd>
+          </section>
+
+
+          <h3 className="block pt-4 pb-2 text-gray-500">Example of profile pic for #4 Heroic / skin: Supermanish / skinEdition: 27/100:</h3>
+          <section className="flex flex-wrap justify-evenly">
+            <Image src="/pfp-twitter.jpg" width="500" height="395"  alt="an example of Metatoon profile picture on Twitter"/>
+
+            <div>
+
+
+            <div className="p-3">
+            <Image  height="200" width="200" src="/pfp-supermanish.png" alt="profile picture of easy rider camel"/>
+            </div>
+
+            </div>
           </section>
 
       </main>
