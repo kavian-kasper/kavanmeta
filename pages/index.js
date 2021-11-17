@@ -31,12 +31,12 @@ export default function Home() {
 
             <h1 className="absolute text-3xl bottom-left md:top-left md:text-4xl
             font-nunito text-black md:text-white md:opacity-80 opacity-80 tracking-wide z-40">
-              Metatoon minting goes live
+              Metatoons are dropping on Cardano
 
               {/* <Link href="/mintMetatoon">
               <a className="uppercase accent hover:text-black" onClick={handleLinkMsg}> {linkMsg} </a>
               </Link> */}
-                on Cardano <span className="accent block"> Friday 19th</span> November, 13.00 CET.
+              <span className="accent block">  19th Nov, 13:00 CET.</span>
 
             </h1>
 
