@@ -7,10 +7,6 @@ export const HeadInfo = (props) => {
       <>
       <Head>
         <title>{title} ｜ KavanMeta</title>
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="description" content="KavanMeta is creating graphics for the coming metaverse."/>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.gif" />
 
         <meta property="og:title" content="Metatoons - NFTs by KavanMeta" />
                     <meta property="og:url" content="https://kavanmeta.io" />

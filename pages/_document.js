@@ -6,21 +6,13 @@ class MyDocument extends Document {
             <Html lang="en">
                 <Head>
                     <meta charSet="utf-8"/>
+
+                    <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+                    <meta name="description" content="KavanMeta is creating graphics for the coming metaverse."/>
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <link rel="icon" href="/favicon.gif" />
+
                     <link href="https://fonts.googleapis.com/css?family=Nunito:700&display=swap" rel="stylesheet"></link>
-
-                    <meta property="og:title" content="Metatoons - NFTs by KavanMeta" />
-                    <meta property="og:url" content="https://kavanmeta.io" />
-                    <meta property="og:image" content="https://kavanmeta.vercel.app/social.jpg" />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:description" content="Bespoke 3D Avatars primed for a future metaverse."/>
-
-                    <meta name="twitter:card" content="summary_large_image"/>
-                    <meta name="twitter:site" content="@kavanmeta"/>
-                    <meta name="twitter:url" content="https://kavanmeta.vercel.app/"/>
-                    <meta name="twitter:title" content="Metatoons - NFTs by KavanMeta"/>
-                    <meta name="twitter:description" content="Bespoke 3D Avatars primed for a future metaverse."/>
-                    <meta name="twitter:image" content="https://kavanmeta.vercel.app/social.jpg/"/>
-
 
                 </Head>
                 <body>

@@ -1,7 +1,6 @@
 import { theAcademic } from "../data/metatoonzData"
 import DetailDescription from "../components/detailComps/DetailDescription"
 import Breadcrumbs from "../components/UIcomponents/Breadcrumbs"
-// import HeadInfo from "../components/Head"
 import { useState } from "react"
 import Image from "next/image"
 
@@ -109,7 +108,7 @@ const TheAcademic = () => {
 
     return (
         <div>
-            {/* <HeadInfo title="Academic"/> */}
+            <title>#6 Academic</title>
 
             <meta property="og:title" content="#6 Academic - a Metatoon by KavanMeta" />
             <meta property="og:url" content="https://kavanmeta.io/theAcademic" />
