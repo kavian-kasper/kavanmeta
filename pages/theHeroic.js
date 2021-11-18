@@ -95,7 +95,7 @@ const TheHeroic = () => {
 
 <meta property="og:title" content="#4 Heroic - from Six Virtues of Charles | Metatoons by KavanMeta" />
 <meta property="og:url" content="https://kavanmeta.io/theHeroic" />
-<meta property="og:image" content="https://kavanmeta.io/academic/heroic-social.jpg" />
+<meta property="og:image" content="https://kavanmeta.io/heroic/heroic-social.jpg" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Through the channels of the internet, a candid live-streamer from warm, sunny Colorado morphed into a great humanitarian figure in the public imagination. We have put him on a pedestal and tasked him with making the world a better place through blockchain, with vanquishing scaling problems once and for all, and with remaining a full-time bison farmer."/>
 
@@ -104,7 +104,7 @@ const TheHeroic = () => {
 <meta name="twitter:url" content="https://kavanmeta.io/theHeroic"/>
 <meta name="twitter:title" content="#4 Heroic - a Metatoon by KavanMeta"/>
 <meta name="twitter:description" content="Through the channels of the internet, a candid live-streamer from warm, sunny Colorado morphed into a great humanitarian figure in the public imagination. We have put him on a pedestal and tasked him with making the world a better place through blockchain, with vanquishing scaling problems once and for all, and with remaining a full-time bison farmer."/>
-<meta name="twitter:image" content="https://kavanmeta.io/academic/heroic-social.jpg"/>
+<meta name="twitter:image" content="https://kavanmeta.io/heroic/heroic-social.jpg"/>
 
             <Breadcrumbs title={commonInfo.metatoon}/>
             <main className="flex flex-col justify-evenly sm:max-w-md  md:max-w-4xl md:flex-row mx-auto mt-14">
