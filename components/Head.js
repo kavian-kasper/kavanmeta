@@ -8,7 +8,7 @@ export const HeadInfo = (props) => {
       <Head>
         <title>{title} ｜ KavanMeta</title>
 
-        <meta property="og:title" content="Metatoons - NFTs by KavanMeta" />
+                    <meta property="og:title" content="Metatoons - NFTs by KavanMeta" />
                     <meta property="og:url" content="https://kavanmeta.io" />
                     <meta property="og:image" content="https://kavanmeta.vercel.app/social.jpg" />
                     <meta property="og:type" content="website" />

@@ -110,7 +110,7 @@ const TheAcademic = () => {
         <div>
             <title>#6 Academic</title>
 
-            <meta property="og:title" content="#6 Academic - a Metatoon by KavanMeta" />
+            <meta property="og:title" content="#6 Academic - from Six Virtues of Charles | Metatoons by KavanMeta" />
             <meta property="og:url" content="https://kavanmeta.io/theAcademic" />
             <meta property="og:image" content="https://kavanmeta.io/academic/academic-social.jpg" />
             <meta property="og:type" content="website" />
