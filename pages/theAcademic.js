@@ -110,6 +110,8 @@ const TheAcademic = () => {
         <div>
             <title>#6 Academic</title>
 
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+
             <meta property="og:title" content="#6 Academic - from Six Virtues of Charles | Metatoons by KavanMeta" />
             <meta property="og:url" content="https://kavanmeta.io/theAcademic" />
             <meta property="og:image" content="https://kavanmeta.io/academic/academic-social.jpg" />
@@ -119,7 +121,7 @@ const TheAcademic = () => {
             <meta name="twitter:card" content="summary_large_image"/>
             <meta name="twitter:site" content="@kavanmeta"/>
             <meta name="twitter:url" content="https://kavanmeta.io/theAcademic"/>
-            <meta name="twitter:title" content="#6 Academic - a Metatoon by KavanMeta"/>
+            <meta name="twitter:title" content="#6 Academic - from Six Virtues of Charles | Metatoons by KavanMeta"/>
             <meta name="twitter:description" content="A mathematics scholar turned tech-CEO. His product development strategy is guided by the academic rigour of his past. In an industry ridden with young men fanatic about shipping early and often, he doggedly remains the adult in the room."/>
             <meta name="twitter:image" content="https://kavanmeta.io/academic/academic-social.jpg/"/>
 

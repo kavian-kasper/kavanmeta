@@ -10,9 +10,11 @@ const MintMetatoon = ({results}) => {
 
     const price = 35
     const initialStock = 937
+    const freeNFTs = results.free
+    console.log("free",freeNFTs)
     const reservationTime = 20
 
-    const [nftCount, setNftCount] = useState(initialStock - results.sold - results.reserved);
+    // const [nftCount, setNftCount] = useState(initialStock - results.sold - results.reserved -results.error);
 
     useEffect(() => {
         try {
@@ -27,16 +29,17 @@ const MintMetatoon = ({results}) => {
     return (
         <div>
             <HeadInfo title="Mint Metatoonz"/>
-        {nftCount === 936 || 935 || 934 ?
-            <div className="min-h-screen text-center text-3xl font-nunito mt-20">The Metatoonz are dropping Friday 19th November, 13.00 CET. Follow
+        {freeNFTs === 0 ?
+            <div className="min-h-screen text-center text-3xl font-nunito mt-20">The Metatoonz are sold out! Follow
                 <Link href="https://twitter.com/KavanMeta">
-            <a className="text-indigo-500" target="_blank"> @kavanmeta </a></Link>
-            for more news.</div>
+                    <a className="text-indigo-500" target="_blank"> @kavanmeta </a></Link>
+                    for news on upcoming drops.</div>
+
             :
-            <div>
+        <div>
         <main className="flex flex-col justify-evenly mt-14 max-w-4xl mx-auto px-2">
 
-        <MintCount nftCount={nftCount} initialStock={initialStock}/>
+        <MintCount nftCount={freeNFTs} initialStock={initialStock}/>
             <div>
 
                         <h3 className="text-2xl font-nunito text-gray-900 tracking-tight sm:text-3xl">How to mint in 4 easy steps.</h3>
