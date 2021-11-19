@@ -31,7 +31,7 @@ export default function Home() {
 
             <h1 className="absolute text-3xl bottom-left md:top-left md:text-4xl
             font-nunito text-black md:text-white md:opacity-80 opacity-80 tracking-wide z-40">
-              The demand for Metatoons have been great, but I have experienced some errors and temporarily paused mintng. More info at
+              The demand for Metatoons have been great, but I have experienced some errors and temporarily paused minting. More info at
               <Link href="https://twitter.com/KavanMeta">
                     <a className="text-indigo-500" target="_blank"> @kavanmeta </a></Link>
               {/* <span className="block"> */}
