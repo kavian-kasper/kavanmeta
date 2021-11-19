@@ -20,24 +20,26 @@ export default function Home() {
     },[] );
 
   const Banner = () => {
-    const [linkMsg, setLinkMsg] = useState("live")
+  //   const [linkMsg, setLinkMsg] = useState("live")
 
-    const handleLinkMsg = () => {
-      setLinkMsg("live...")
-    }
+  //   const handleLinkMsg = () => {
+  //     setLinkMsg("live...")
+  //   }
 
     return (
       <div className="relative">
 
             <h1 className="absolute text-3xl bottom-left md:top-left md:text-4xl
             font-nunito text-black md:text-white md:opacity-80 opacity-80 tracking-wide z-40">
-              Metatoons minting is
-              <span className="block">
-              <Link href="/mintMetatoon">
-              <a className="uppercase accent hover:text-black" onClick={handleLinkMsg}> {linkMsg} </a>
-              </Link>
-               on Cardano!
-               </span>
+              The demand for Metatoons have been great, but I've experienced some errors and temporarily paused mintng. More info at
+              <Link href="https://twitter.com/KavanMeta">
+                    <a className="text-indigo-500" target="_blank"> @kavanmeta </a></Link>
+              {/* <span className="block"> */}
+              {/* <Link href="/mintMetatoon"> */}
+              {/* <a className="uppercase accent hover:text-black" onClick={handleLinkMsg}> {linkMsg} </a> */}
+              {/* </Link> */}
+               {/* on Cardano! */}
+               {/* </span> */}
 
             </h1>
 
