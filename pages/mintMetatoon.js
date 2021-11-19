@@ -14,7 +14,6 @@ const MintMetatoon = ({results}) => {
     console.log("free",freeNFTs)
     const reservationTime = 20
 
-    // const [nftCount, setNftCount] = useState(initialStock - results.sold - results.reserved -results.error);
 
     useEffect(() => {
         try {
@@ -29,13 +28,13 @@ const MintMetatoon = ({results}) => {
     return (
         <div>
             <HeadInfo title="Mint Metatoonz"/>
-        {/* {freeNFTs === 0 ? */}
-            <div className="min-h-screen text-center text-3xl font-nunito mt-20">The Metatoonz recently experienced some troubles during minting. I have paused the minting temporarily. Get in touch at
+        {freeNFTs === 0 ?
+             <div className="min-h-screen text-center text-3xl font-nunito mt-20">The Metatoonz are sold out! Follow
                 <Link href="https://twitter.com/KavanMeta">
                     <a className="text-indigo-500" target="_blank"> @kavanmeta </a></Link>
-                    for info or to report and error.</div>
+                    to get news on new drops.</div>
 
-            {/* :
+             :
         <div>
         <main className="flex flex-col justify-evenly mt-14 max-w-4xl mx-auto px-2">
 
@@ -116,7 +115,7 @@ const MintMetatoon = ({results}) => {
                         </div>
                     </aside>
                     </div>
-     } */}
+     }
         </div>
     )
 }

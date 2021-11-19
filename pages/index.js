@@ -20,26 +20,24 @@ export default function Home() {
     },[] );
 
   const Banner = () => {
-  //   const [linkMsg, setLinkMsg] = useState("live")
+    const [linkMsg, setLinkMsg] = useState("live")
 
-  //   const handleLinkMsg = () => {
-  //     setLinkMsg("live...")
-  //   }
+    const handleLinkMsg = () => {
+      setLinkMsg("live...")
+    }
 
     return (
       <div className="relative">
 
             <h1 className="absolute text-3xl bottom-left md:top-left md:text-4xl
             font-nunito text-black md:text-white md:opacity-80 opacity-80 tracking-wide z-40">
-              The demand for Metatoons have been great, but I have experienced some errors and temporarily paused minting. More info at
-              <Link href="https://twitter.com/KavanMeta">
-                    <a className="text-indigo-500" target="_blank"> @kavanmeta </a></Link>
-              {/* <span className="block"> */}
-              {/* <Link href="/mintMetatoon"> */}
-              {/* <a className="uppercase accent hover:text-black" onClick={handleLinkMsg}> {linkMsg} </a> */}
-              {/* </Link> */}
-               {/* on Cardano! */}
-               {/* </span> */}
+              Metatoons minting is
+              <span className="block">
+              <Link href="/mintMetatoon">
+              <a className="uppercase accent hover:text-black" onClick={handleLinkMsg}> {linkMsg} </a>
+              </Link>
+               on Cardano!
+               </span>
 
             </h1>
 
@@ -58,7 +56,11 @@ export default function Home() {
       <HeadInfo title="Home"/>
         <Banner/>
           <main className="w-full px-2 sm:px-6 lg:px-8 max-w-5xl mx-auto mt-10">
-
+          <p className="text 2xl py-2 my-4 text-gray-500 break-all ">Policy ID:
+            <Link href="https://cardanoscan.io/tokenPolicy/bb0b622e3f2bf60ae25164f01f04744e9b8bc034f2979c0023f9b869">
+              <a target="_blank" className="font-bold font-nunito text-indigo-500"> Cardanoscan</a>
+            </Link>
+          </p>
           <ThumbnailList metatoonz={metatoonz} />
 
           <section className="mt-20">
